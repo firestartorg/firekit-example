@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "isolatedModules": false,
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  },
+  "include": ["src", "firekit.config.ts", "global.d.ts", "index.ts"]
+}

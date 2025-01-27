@@ -1,0 +1,22 @@
+{
+  "name": "firekit-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "cd dist && firekit start",
+    "build": "tsup *.ts --format esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@firestart/firekit": "^1.0.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  }
+}

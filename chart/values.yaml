@@ -1,0 +1,14 @@
+image:
+  repository: docker.io/yourname/yourimage
+  pullPolicy: IfNotPresent
+  tag: ""
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+replicaCount: 1
+
+service:
+  type: ClusterIP
+  port: 3333
