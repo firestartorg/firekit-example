@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@firestart/firekit':
-        specifier: ^1.0.1
-        version: 1.0.1
+        specifier: ^1.0.2
+        version: 1.0.2
     devDependencies:
       '@types/node':
         specifier: ^22.10.7
@@ -203,8 +203,8 @@ packages:
   '@fastify/under-pressure@9.0.3':
     resolution: {integrity: sha512-uWzyFn9ThgGgynxyoX/kqgLtPtNBXXvQgN3U8fSRPNBS1y5mEZC/uCBRx03hXm9PDsQwTGN7qt83ItsHVQ0L4A==}
 
-  '@firestart/firekit@1.0.1':
-    resolution: {integrity: sha512-QxFxxyb1b1AQkzcWy2TF7Kc8c/Fm6y60/xjgF/5KSy4CwC2XYqbH8y4+X70vL0s0wgwg5RzOD6dZJTemZXDhWA==}
+  '@firestart/firekit@1.0.2':
+    resolution: {integrity: sha512-7q3fJxW/xgPksd8h2kaHVCbZl+dqzSqxKGGdQqtGS2Ze2l681a58LlBla2IsfOE4dc4FT9vGtfo3y8shvMtQVQ==}
     hasBin: true
 
   '@isaacs/cliui@8.0.2':
@@ -1018,7 +1018,7 @@ snapshots:
       '@fastify/error': 4.0.0
       fastify-plugin: 5.0.1
 
-  '@firestart/firekit@1.0.1':
+  '@firestart/firekit@1.0.2':
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.7.3
       '@profusion/json-schema-to-typescript-definitions': 0.2.1

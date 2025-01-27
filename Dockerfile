@@ -12,6 +12,7 @@ RUN pnpm tsup '.\node_modules\@firestart\firekit\dist\cli\index.js' -d dist/cli 
 FROM node:22.5-alpine3.19 AS production
 WORKDIR /app
 COPY package.json ./package.json
+COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/dist ./dist
 WORKDIR /app/dist
-CMD ["cli/index.js", "start"]
+CMD ["cli/index.js", "start", "--host", "0.0.0.0"]

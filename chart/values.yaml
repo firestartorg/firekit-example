@@ -1,7 +1,7 @@
 image:
-  repository: docker.io/yourname/yourimage
-  pullPolicy: IfNotPresent
-  tag: ""
+  repository: ghcr.io/firestartorg/firekit-example
+  pullPolicy: Always
+  tag: main
 
 imagePullSecrets: []
 nameOverride: ""
@@ -11,4 +11,4 @@ replicaCount: 1
 
 service:
   type: ClusterIP
-  port: 3333
+  port: 3000

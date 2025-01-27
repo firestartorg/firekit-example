@@ -16,9 +16,18 @@ This is an example of how to use the FireKit SDK to develop a simple integration
 
 ## Deployment
 
+> Note: A sample container can be pulled from the GitHub Container Registry: `ghcr.io/firestartorg:firekit-example:main`
+
 1. Build and push the Docker image to a container registry
 2. Deploy the Docker image to Kubernetes - there is a sample helm chart in the `chart` directory
 3. Update the FireStart Cloud deployment `values.yaml` with the URL of the deployed integration (add service to the `integrations.additionalEndpoints` list)
+
+   ```yaml
+   integrations:
+     additionalEndpoints:
+       - name: "firestart"
+         endpoint: "http://firekit-example:3000"
+   ```
 
 ## License
 

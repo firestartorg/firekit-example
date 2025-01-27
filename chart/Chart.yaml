@@ -1,5 +1,5 @@
 apiVersion: v2
-name: firestart-example
+name: firekit-example
 description: A example integration for the FireStart Cloud platform
 type: application
 version: 0.1.0
